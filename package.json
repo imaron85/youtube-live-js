@@ -4,7 +4,8 @@
   "description": "YouTube Live API Wrapper",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/fukuimaunicorn/youtube-live-js/issues"
   },
-  "homepage": "https://github.com/fukuimaunicorn/youtube-live-js#readme"
+  "homepage": "https://github.com/fukuimaunicorn/youtube-live-js#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
 }
